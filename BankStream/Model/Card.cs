@@ -6,21 +6,15 @@ using System.Threading.Tasks;
 
 namespace BankStream.Model
 {
-    class Account
+    class Card
     {
         #region Fields
-
-        public String Name { get; set;}
-        public IList<Card> CarsList { get; set; }
-        public IList<Operation> OperationsList { get; set; }
-
         #endregion
 
         #region Constructors
 
-        public Account()
+        public Card()
         {
-
         }
 
         #endregion

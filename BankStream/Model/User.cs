@@ -19,7 +19,19 @@ namespace BankStream.Model
 
         public User()
         {
+            this.Name = null;
+            this.AccountsList = null;
+        }
 
+        public User(String pName)
+        {
+            this.Name = pName;
+        }
+
+        public User(String pName, IList<Account> pAccountsList)
+        {
+            this.Name = pName;
+            this.AccountsList = pAccountsList;
         }
 
         #endregion
