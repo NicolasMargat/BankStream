@@ -11,6 +11,7 @@ namespace BankStream.Model
         #region Fields
 
         public String Name { get; set;}
+        public String Bank { get; set; }
         public IList<Card> CarsList { get; set; }
         public IList<Operation> OperationsList { get; set; }
 

@@ -9,6 +9,11 @@ namespace BankStream.Model
     class Card
     {
         #region Fields
+
+        public int Id { get; set; }
+        public String Name { get; set; }
+        public int Ceiling { get; set; }
+
         #endregion
 
         #region Constructors
